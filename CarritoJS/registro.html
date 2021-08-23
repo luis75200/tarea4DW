@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/parcial1/css/style.css">
+    <title>DOREMI registro</title>
+</head>
+<body id="REGIS">
+    <div class="Registro">
+       
+        <center><h1 id="h1LOG">Registrate</h1></center>
+        <form action="/CarritoJS/compra.html">
+            <!--Nombre del usuario-->
+            <label for="Nombre">Nombre del usuario </label>
+            <input  type="text" 
+            placeholder="Ingrese su Nombre..."
+            required><br>
+        
+            <!--Apellido del usuario-->
+            <label for="numero">numero telefonico </label>
+            <input  type="number" 
+            placeholder="ingrese su numero..."
+            required><br>
+
+           <!--Correo del usuario-->
+           <label for="Correo">Correo del usuario</label>
+           <input  type="email" 
+            placeholder="Ingrese su Correo electronico..."
+            required><br>
+
+            <!--Contraseña del usuario-->
+            <label for="password">Contraseña del usuario</label>
+            <input  type="password" 
+            placeholder="Ingrese su Contraseña..."
+            required><br><br>
+
+            <!--acepto terminos y condicioness--> 
+            <input type="checkbox" id="cbox2" value="second_checkbox" data-="1"
+            required> 
+            <label for="cbox2">Acepto terminos y condiciones</label>
+
+            <!--registrarte-->
+            <input type="submit" value="  Registrate" class="buttom"><br>
+            <input type="reset" value=" Limpiar campos" class="buttom">
+
+            <!--Ya tienes un usuario-->
+            <p> ¿Ya estas registrado?<a href="/CarritoJS/login.html">Iniciar sesion</a> </p>
+        </form>
+    </div>
+</body>
+</html>

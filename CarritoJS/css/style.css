@@ -1,0 +1,235 @@
+/* Pagina Login*/
+#LOG, #REGIS{
+    margin: 0;
+    padding: 0;
+    background: url(/parcial1/img/guitarra\ fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh ;
+  }
+
+  #h1LOG{
+      text-align: center;
+      margin-left: 75px;
+  }
+
+  
+  .login{
+      width: 400px;
+      height: 420px;
+      background: rgb(22, 22, 68);
+      color: rgb(92, 47, 47);
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+  }
+  
+  .login .avatar{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: -50px;
+      left: calc(50% - 50px);
+  }
+  
+  .login label{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+      display: block;
+  }
+
+  .login input[type="text"],
+  .login input[type="password"],
+  .login input[type="email"]{
+      border: none;
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #fff;
+      font-size: 20px;
+  }
+  
+  .login input[type="submit"],
+  .login input[type="reset"]{
+      border: none;
+      text-align: center;
+      outline: none;
+      height: 40px;
+      background: #1a0306;
+      color: rgb(121, 137, 158);
+      font-size: 25px;
+      border-radius: 100px;
+  }
+  /* Pagina de registro */
+  .Registro{
+      width: 400px;
+      height: 600px;
+      background: rgb(30, 22, 77);
+      color: rgb(114, 71, 71);
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 40px 60px;
+  }
+  .Registro .avatar{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: -50px;
+      left: calc(50% - 50px);
+  }
+  .Registro label{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+      display: block;
+  }
+  .Registro input[type="text"],
+  .Registro input[type="email"],
+  .Registro input[type="password"],
+  .Registro input[type ="number"]{
+      border: none;
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      width: 280px;
+      color: #fff;
+      font-size: 20px;
+  }
+  .Registro input[type="submit"],
+  .Registro input[type="reset"]{
+      border: none;
+      text-align: center;
+      outline: none;
+      height: 40px;
+      background: #14090a;
+      color: rgb(88, 83, 99);
+      font-size: 25px;
+      border-radius: 100px;
+  }
+
+A:link{
+    color:red;
+}
+
+a:visited{
+    color: maroon;
+    size: 50px;
+}
+
+A:active  { color:rgb(73, 28, 28); 
+            font-size: 150%;
+            }
+
+A:hover { color:rgb(29, 23, 23);
+        background-color: yellow;
+        text-decoration: double;}
+
+
+        /* Pagina principal*/
+Nav{
+    border: black 3px solid;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    background: cadetblue;
+    background: url(/parcial1/img/guitarra\ fondo.jpg)  center top;
+    color:black;
+    font-size: 30px;
+}
+#BP, #BLI, #BPR{
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 10px 10px;
+}
+#PRI, #OP1, #OP2{
+    
+    text-align: justify;
+    border: black 3px solid;
+    margin: 0px auto;
+    padding: 10px 10px;
+    background:rgb(173, 85, 85);
+    color: black;
+    font-size: 30px;
+    width: 97.5%;
+}
+footer{
+    border: black 3px solid;
+    margin: 10px;
+    background: url(/parcial1/img/guitarra\ fondo.jpg) center top;
+    color: black;
+}
+.tabla{
+    border: 1px solid;
+    width: 600px;
+    border-collapse: collapse;
+}
+.tabla img{
+    width: 120px;
+}
+.tabla td{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.productos{
+    color: blanchedalmond;
+    background-color: black;
+    height: 375px;
+    width: 15%;
+    display: inline-block;
+    margin: 10px 27px;
+    padding: 15px;
+}
+
+legend{
+    text-align: center;
+    color: black;   
+}
+
+ul, li{
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+    background-color: rgb(194, 178, 178);
+}
+
+h1, h2{
+    border-bottom: black 5px solid ;
+    text-align: center;
+    margin-left: 750px;
+    margin-right: 750px;
+}
+h3{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+
+}
+
+img{
+    width: 75%;
+    height: 60%;
+    padding-top: 1px;
+    padding-left: 32px;
+}
+
+.agregarAlCarrito,
+.agregarAlCarrito input[type="image"]{
+    text-align: right;
+}
+
